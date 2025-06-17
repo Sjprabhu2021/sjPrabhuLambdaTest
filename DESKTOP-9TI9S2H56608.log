@@ -29,3 +29,29 @@
 {"level":"info","time":"2025-06-17T14:35:23.047+0530","caller":"core/lifecycle.go:318","msg":"Launching tunnel"}
 {"level":"info","time":"2025-06-17T14:35:26.333+0530","caller":"core/lifecycle.go:440","msg":"You can start testing now"}
 {"level":"info","time":"2025-06-17T14:35:26.334+0530","caller":"core/lifecycle.go:441","msg":"Tunnel ID: 6582551"}
+{"level":"error","time":"2025-06-17T15:07:43.285+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2025-06-17T15:07:43.285+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2025-06-17T15:07:43.285+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.1.15:61547->13.126.37.58:443: i/o timeout "}
+{"level":"error","time":"2025-06-17T15:07:44.840+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2025-06-17T15:07:44.840+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2025-06-17T15:07:44.840+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2025-06-17T15:07:45.291+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2025-06-17T15:07:45.291+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2025-06-17T15:07:45.291+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2025-06-17T15:07:47.164+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2025-06-17T15:07:47.164+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2025-06-17T15:07:47.164+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2025-06-17T15:07:51.701+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2025-06-17T15:07:51.701+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2025-06-17T15:07:51.701+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2025-06-17T15:08:00.187+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2025-06-17T15:08:00.187+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2025-06-17T15:08:00.187+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2025-06-17T15:08:00.187+0530","caller":"core/lifecycle.go:449","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2025-06-17T15:08:00.187+0530","caller":"core/lifecycle.go:450","msg":"Aborting"}
+{"level":"info","time":"2025-06-17T15:08:01.293+0530","caller":"core/lifecycle.go:471","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-06-17T15:08:01.299+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-06-17T15:08:23.819+0530","caller":"custom/setup.go:881","msg":"Tunnel binary started on port :56609","tunnelID":"6582551"}
+{"level":"info","time":"2025-06-17T15:08:25.485+0530","caller":"core/lifecycle.go:318","msg":"Launching tunnel"}
+{"level":"info","time":"2025-06-17T15:08:30.178+0530","caller":"core/lifecycle.go:440","msg":"You can start testing now"}
+{"level":"info","time":"2025-06-17T15:08:30.178+0530","caller":"core/lifecycle.go:441","msg":"Tunnel ID: 6583025"}
